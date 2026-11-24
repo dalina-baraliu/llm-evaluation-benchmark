@@ -1,0 +1,9 @@
+row_id,model,category,question,expected,prediction,correct,human_correct
+17,llama3.2:1b,Reasoning,All cats are mammals. Felix is a cat. Is Felix a mammal?,Yes,No,0,0
+18,llama3.2:1b,Reasoning,What comes next in the sequence 2 4 8 16?,32,16,0,0
+22,llama3.2:1b,Reasoning,A bag has three red balls and two blue balls. How many balls are there?,5,6,0,0
+44,qwen2.5:1.5b,Knowledge,What is the chemical symbol for oxygen?,O,"Oxygen is represented by the chemical symbol ""O.""",1,1
+45,qwen2.5:1.5b,Knowledge,How many continents are commonly recognized in the seven-continent model?,7,Seven,0,1
+49,qwen2.5:1.5b,Reasoning,All cats are mammals. Felix is a cat. Is Felix a mammal?,Yes,"Yes, Felix is a mammal.",1,1
+52,qwen2.5:1.5b,Reasoning,Anna is older than Ben and Ben is older than Cara. Who is youngest?,Cara,Cara is the youngest.,1,1
+54,qwen2.5:1.5b,Reasoning,A bag has three red balls and two blue balls. How many balls are there?,5,Five,0,1

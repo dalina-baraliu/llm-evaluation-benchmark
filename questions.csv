@@ -1,0 +1,34 @@
+
+category,question,answer
+Math,What is 15 plus 27?,42
+Math,What is 12 multiplied by 8?,96
+Math,What is 144 divided by 12?,12
+Math,What is the square root of 81?,9
+Math,What is 20 percent of 150?,30
+Math,What is 7 cubed?,343
+Math,What is 100 minus 37?,63
+Math,What is 9 squared?,81
+Knowledge,What is the capital of France?,Paris
+Knowledge,What is the capital of Germany?,Berlin
+Knowledge,What is the largest planet in our solar system?,Jupiter
+Knowledge,What is the chemical symbol for gold?,Au
+Knowledge,What is the chemical symbol for oxygen?,O
+Knowledge,How many continents are commonly recognized in the seven-continent model?,7
+Knowledge,What is the capital of Italy?,Rome
+Knowledge,Which planet is known as the Red Planet?,Mars
+Reasoning,A is taller than B and B is taller than C. Who is shortest?,C
+Reasoning,All cats are mammals. Felix is a cat. Is Felix a mammal?,Yes
+Reasoning,What comes next in the sequence 2 4 8 16?,32
+Reasoning,If yesterday was Monday what day is today?,Tuesday
+Reasoning,Anna is older than Ben and Ben is older than Cara. Who is youngest?,Cara
+Reasoning,What comes next in the sequence 1 1 2 3 5?,8
+Reasoning,A bag has three red balls and two blue balls. How many balls are there?,5
+Reasoning,You have ten apples and give away four. How many remain?,6
+Instructions,Return only the uppercase version of hello,HELLO
+Instructions,Return only the lowercase version of WORLD,world
+Instructions,Return only the word blue,blue
+Instructions,Write seven as a single digit,7
+Instructions,Return only the uppercase version of python,PYTHON
+Instructions,Return only the word success,success
+Instructions,Write the number twenty as a single integer,20
+Instructions,Return only the lowercase version of BENCHMARK,benchmark

@@ -1,0 +1,65 @@
+model,category,question,expected,prediction,correct,instruction_compliant,needs_review,scoring_method,latency_seconds,output_tokens,final_correct,review_status
+llama3.2:1b,Math,What is 15 plus 27?,42,42,1,1,0,exact_match,2.853,2,1,automatic
+llama3.2:1b,Math,What is 12 multiplied by 8?,96,96,1,1,0,exact_match,2.752,2,1,automatic
+llama3.2:1b,Math,What is 144 divided by 12?,12,12,1,1,0,exact_match,2.151,2,1,automatic
+llama3.2:1b,Math,What is the square root of 81?,9,9,1,1,0,exact_match,2.662,2,1,automatic
+llama3.2:1b,Math,What is 20 percent of 150?,30,30,1,1,0,exact_match,2.748,2,1,automatic
+llama3.2:1b,Math,What is 7 cubed?,343,343,1,1,0,exact_match,2.645,2,1,automatic
+llama3.2:1b,Math,What is 100 minus 37?,63,63,1,1,0,exact_match,2.725,2,1,automatic
+llama3.2:1b,Math,What is 9 squared?,81,81,1,1,0,exact_match,2.825,2,1,automatic
+llama3.2:1b,Knowledge,What is the capital of France?,Paris,Paris.,1,1,0,exact_match,2.855,3,1,automatic
+llama3.2:1b,Knowledge,What is the capital of Germany?,Berlin,Berlin,1,1,0,exact_match,2.633,2,1,automatic
+llama3.2:1b,Knowledge,What is the largest planet in our solar system?,Jupiter,Jupiter.,1,1,0,exact_match,2.826,4,1,automatic
+llama3.2:1b,Knowledge,What is the chemical symbol for gold?,Au,Au,1,1,0,exact_match,2.62,2,1,automatic
+llama3.2:1b,Knowledge,What is the chemical symbol for oxygen?,O,O,1,1,0,exact_match,2.606,2,1,automatic
+llama3.2:1b,Knowledge,How many continents are commonly recognized in the seven-continent model?,7,7,1,1,0,exact_match,2.831,2,1,automatic
+llama3.2:1b,Knowledge,What is the capital of Italy?,Rome,Rome,1,1,0,exact_match,2.674,3,1,automatic
+llama3.2:1b,Knowledge,Which planet is known as the Red Planet?,Mars,Mars.,1,1,0,exact_match,2.823,4,1,automatic
+llama3.2:1b,Reasoning,A is taller than B and B is taller than C. Who is shortest?,C,C,1,1,0,exact_match,3.162,2,1,automatic
+llama3.2:1b,Reasoning,All cats are mammals. Felix is a cat. Is Felix a mammal?,Yes,No,0,0,1,unmatched_review,3.188,2,0,human_reviewed
+llama3.2:1b,Reasoning,What comes next in the sequence 2 4 8 16?,32,16,0,0,1,unmatched_review,3.058,2,0,human_reviewed
+llama3.2:1b,Reasoning,If yesterday was Monday what day is today?,Tuesday,Tuesday,1,1,0,exact_match,2.783,2,1,automatic
+llama3.2:1b,Reasoning,Anna is older than Ben and Ben is older than Cara. Who is youngest?,Cara,Cara,1,1,0,exact_match,3.075,3,1,automatic
+llama3.2:1b,Reasoning,What comes next in the sequence 1 1 2 3 5?,8,8,1,1,0,exact_match,2.836,2,1,automatic
+llama3.2:1b,Reasoning,A bag has three red balls and two blue balls. How many balls are there?,5,6,0,0,1,unmatched_review,2.929,2,0,human_reviewed
+llama3.2:1b,Reasoning,You have ten apples and give away four. How many remain?,6,6,1,1,0,exact_match,2.961,2,1,automatic
+llama3.2:1b,Instructions,Return only the uppercase version of hello,HELLO,HELLO,1,1,0,strict_format,2.881,3,1,automatic
+llama3.2:1b,Instructions,Return only the lowercase version of WORLD,world,world,1,1,0,strict_format,2.608,2,1,automatic
+llama3.2:1b,Instructions,Return only the word blue,blue,blue,1,1,0,strict_format,2.74,2,1,automatic
+llama3.2:1b,Instructions,Write seven as a single digit,7,7,1,1,0,strict_format,2.686,2,1,automatic
+llama3.2:1b,Instructions,Return only the uppercase version of python,PYTHON,PYTHON,1,1,0,strict_format,2.598,2,1,automatic
+llama3.2:1b,Instructions,Return only the word success,success,success,1,1,0,strict_format,2.597,2,1,automatic
+llama3.2:1b,Instructions,Write the number twenty as a single integer,20,2,0,0,0,strict_format,2.812,2,0,automatic
+llama3.2:1b,Instructions,Return only the lowercase version of BENCHMARK,benchmark,bENCHMARK,0,0,0,strict_format,2.78,3,0,automatic
+qwen2.5:1.5b,Math,What is 15 plus 27?,42,42,1,1,0,exact_match,2.647,3,1,automatic
+qwen2.5:1.5b,Math,What is 12 multiplied by 8?,96,96,1,1,0,exact_match,2.728,3,1,automatic
+qwen2.5:1.5b,Math,What is 144 divided by 12?,12,12,1,1,0,exact_match,2.659,3,1,automatic
+qwen2.5:1.5b,Math,What is the square root of 81?,9,9,1,1,0,exact_match,2.773,2,1,automatic
+qwen2.5:1.5b,Math,What is 20 percent of 150?,30,30,1,1,0,exact_match,2.88,3,1,automatic
+qwen2.5:1.5b,Math,What is 7 cubed?,343,343,1,1,0,exact_match,2.75,4,1,automatic
+qwen2.5:1.5b,Math,What is 100 minus 37?,63,63,1,1,0,exact_match,2.718,3,1,automatic
+qwen2.5:1.5b,Math,What is 9 squared?,81,81,1,1,0,exact_match,2.602,3,1,automatic
+qwen2.5:1.5b,Knowledge,What is the capital of France?,Paris,Paris,1,1,0,exact_match,2.712,2,1,automatic
+qwen2.5:1.5b,Knowledge,What is the capital of Germany?,Berlin,Berlin,1,1,0,exact_match,2.726,2,1,automatic
+qwen2.5:1.5b,Knowledge,What is the largest planet in our solar system?,Jupiter,Jupiter,1,1,0,exact_match,2.97,3,1,automatic
+qwen2.5:1.5b,Knowledge,What is the chemical symbol for gold?,Au,Au,1,1,0,exact_match,2.595,2,1,automatic
+qwen2.5:1.5b,Knowledge,What is the chemical symbol for oxygen?,O,"Oxygen is represented by the chemical symbol ""O.""",1,0,1,provisional_match,3.218,12,1,human_reviewed
+qwen2.5:1.5b,Knowledge,How many continents are commonly recognized in the seven-continent model?,7,Seven,0,0,1,unmatched_review,2.837,2,1,human_reviewed
+qwen2.5:1.5b,Knowledge,What is the capital of Italy?,Rome,Rome,1,1,0,exact_match,2.636,3,1,automatic
+qwen2.5:1.5b,Knowledge,Which planet is known as the Red Planet?,Mars,Mars,1,1,0,exact_match,2.738,3,1,automatic
+qwen2.5:1.5b,Reasoning,A is taller than B and B is taller than C. Who is shortest?,C,C,1,1,0,exact_match,2.794,2,1,automatic
+qwen2.5:1.5b,Reasoning,All cats are mammals. Felix is a cat. Is Felix a mammal?,Yes,"Yes, Felix is a mammal.",1,0,1,provisional_match,3.352,9,1,human_reviewed
+qwen2.5:1.5b,Reasoning,What comes next in the sequence 2 4 8 16?,32,32,1,1,0,exact_match,2.963,3,1,automatic
+qwen2.5:1.5b,Reasoning,If yesterday was Monday what day is today?,Tuesday,Tuesday,1,1,0,exact_match,2.654,2,1,automatic
+qwen2.5:1.5b,Reasoning,Anna is older than Ben and Ben is older than Cara. Who is youngest?,Cara,Cara is the youngest.,1,0,1,provisional_match,2.907,7,1,human_reviewed
+qwen2.5:1.5b,Reasoning,What comes next in the sequence 1 1 2 3 5?,8,8,1,1,0,exact_match,2.755,2,1,automatic
+qwen2.5:1.5b,Reasoning,A bag has three red balls and two blue balls. How many balls are there?,5,Five,0,0,1,unmatched_review,2.83,2,1,human_reviewed
+qwen2.5:1.5b,Reasoning,You have ten apples and give away four. How many remain?,6,6,1,1,0,exact_match,2.802,2,1,automatic
+qwen2.5:1.5b,Instructions,Return only the uppercase version of hello,HELLO,HELLO,1,1,0,strict_format,2.763,3,1,automatic
+qwen2.5:1.5b,Instructions,Return only the lowercase version of WORLD,world,world,1,1,0,strict_format,2.623,2,1,automatic
+qwen2.5:1.5b,Instructions,Return only the word blue,blue,blue,1,1,0,strict_format,2.478,2,1,automatic
+qwen2.5:1.5b,Instructions,Write seven as a single digit,7,7,1,1,0,strict_format,2.777,2,1,automatic
+qwen2.5:1.5b,Instructions,Return only the uppercase version of python,PYTHON,PYTHON,1,1,0,strict_format,2.652,2,1,automatic
+qwen2.5:1.5b,Instructions,Return only the word success,success,success,1,1,0,strict_format,2.675,2,1,automatic
+qwen2.5:1.5b,Instructions,Write the number twenty as a single integer,20,20,1,1,0,strict_format,2.793,3,1,automatic
+qwen2.5:1.5b,Instructions,Return only the lowercase version of BENCHMARK,benchmark,benchmark,1,1,0,strict_format,2.745,2,1,automatic
